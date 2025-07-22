@@ -1,0 +1,40 @@
+[project]
+name = "solar-seo-app-service"
+version = "1.0.0"
+description = "Solar SEO App - Professional SEO optimization backend with site auditing, keyword research, and performance monitoring"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.12.13",
+    "beautifulsoup4>=4.13.3",
+    "boto3>=1.38.10",
+    "cryptography>=45.0.5",
+    "fastapi>=0.115.12",
+    "h11>=0.16.0",
+    "httpcore>=1.0.9",
+    "httpx>=0.28.1",
+    "loguru>=0.7.3",
+    "psycopg>=3.2.6",
+    "psycopg-pool>=3.2.6",
+    "pydantic>=2.11.3",
+    "pyjwt>=2.10.1",
+    "python-dotenv>=1.1.0",
+    "python-multipart>=0.0.20",
+    "requests>=2.32.3",
+    "uvicorn>=0.34.1",
+    "jinja2>=3.1.0",
+    "markdown>=3.5.0",
+    "pygments>=2.16.0",
+    "selenium>=4.15.0",
+    "google-api-python-client>=2.100.0",
+    "google-auth>=2.23.0",
+    "google-auth-oauthlib>=1.1.0",
+    "google-auth-httplib2>=0.2.0",
+    "ahrefs-api>=1.0.0",
+    "lighthouse-python>=1.0.0",
+    "python-whois>=0.8.0",
+    "dns-python>=2.4.0"
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
